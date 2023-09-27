@@ -5,16 +5,50 @@
         <mj-preview>Hello MJML</mj-preview>
         <mj-title>Hello MJML</mj-title>
         <mj-attributes>
-             <mj-text padding="0" />
-             <mj-all font-family="Arial" />
-             <mj-class name="mjclass" color="green" font-size="30px" />
+            <mj-text padding="0" />
+            <mj-all font-family="Arial" />
+            <mj-class name="mjclass" color="green" font-size="30px" />
         </mj-attributes>
-        <mj-style inline="inline">
-
+        <mj-style>
+            @media (max-width: 330px) {
+                .mobile-heading div {
+                    font-size: 36px !important;
+                    line-height: 38px !important;
+                }
+            }
         </mj-style>
+        <mj-style inline="inline">
+            .white-text div {
+                color: #ffffff !important;
+            }
+
+            .align-to-middle div{
+                text-align: center !important;
+            }
+        </mj-style> 
         <mj-breakpoint width="600px" />
     </mj-head>
     <mj-body>
+        <!-- Home section : BEGIN -->
+        <mj-section background-url="img/home.jpg"
+                    background-position="center"
+                    background-repeat="no-repeat">
+            <mj-column css-class="white-text" padding="30px 0 20px 10px">
+                <mj-image width="65px" src="img/logo.png"/>
+                <mj-text css-class="mobile-heading" font-size="48px" font-weight="bold" line-height="50px" padding="0 25px 20px"> 
+                    Welcome to our Agricultural Newsletter!
+                </mj-text>
+                <mj-text font-size="18px" line-height="30px" padding="0 20px"> 
+                    Stay updated with the latest trends in the agriculture industry.
+                    Explore our blog for insightful articles, shop our premium products, 
+                    and connect with us on social media
+                </mj-text>
+                <mj-button align="left" font-size="18px" background-color="#008D36" padding="10px 0 0 20px">
+                    Explore now
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <!-- Home section : END -->
 
         
 
