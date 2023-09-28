@@ -1,7 +1,7 @@
 <mjml>
     <mj-head>
-        <mj-font name="Raleway"
-                href="https://fonts.googleapis.com/css?family=Raleway" />
+        <mj-font name="Sora"
+                href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap"/>
         <mj-preview>Hello MJML</mj-preview>
         <mj-title>Hello MJML</mj-title>
         <mj-attributes>
@@ -50,7 +50,7 @@
         </mj-section>
         <!-- Home section : END -->
 
-        <!-- Home section : BEGIN -->
+        <!-- Benefits section : BEGIN -->
         <mj-section background-color="#ffffff">
             <mj-column css-class="align-to-middle">
                 <mj-text font-size="18px" padding="0 0 10px" color="#008D36">
@@ -82,6 +82,45 @@
                 </mj-text>
             </mj-column>
         </mj-section>
-        <!-- Home section : END -->
+        <!-- Benefits section : END -->
+
+        <!-- Collection section : BEGIN -->
+        <mj-section background-color="#008D36" padding="30px 0 ">
+            <mj-column border-right="1px solid #ffffff">
+                <mj-text font-size="26px" font-weight="bold" line-height="30px" padding="0 20px" color="#ffffff">
+                    • <mj-raw><br /></mj-raw>
+                    Browse our extensive collection of agricultural products
+                </mj-text>
+            </mj-column>
+
+            <mj-column padding="0 20px">
+                <mj-text css-class="white-text" font-size="48px" font-weight="bold"
+                padding="20px 0">
+                    342k
+                </mj-text>
+                <mj-text css-class="white-text" font-size="14px" line-height="20px" padding="0 0 20px">
+                    High-quality products <mj-raw><br /></mj-raw>
+                    for improved yields
+                </mj-text>
+                <mj-text css-class="white-text" font-size="18px">
+                    Explore →
+                </mj-text>
+            </mj-column>
+
+            <mj-column padding="0 20px">
+                <mj-text css-class="white-text" font-size="48px" font-weight="bold"
+                padding="20px 0">
+                    1265
+                </mj-text>
+                <mj-text css-class="white-text" font-size="14px" line-height="20px" padding="0 0 20px">
+                    Sustainable solutions <mj-raw><br /></mj-raw>
+                    for a greener future
+                </mj-text>
+                <mj-text css-class="white-text" font-size="18px">
+                    Explore →
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- Collection section : END -->
     </mj-body>
 </mjml>
