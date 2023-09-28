@@ -10,6 +10,12 @@
             <mj-class name="mjclass" color="green" font-size="30px" />
         </mj-attributes>
         <mj-style>
+            @media (max-width: 600px) {
+                .mobile-50 div {
+                    width: 50% !important;
+                }
+            }
+
             @media (max-width: 330px) {
                 .mobile-heading div {
                     font-size: 36px !important;
@@ -18,12 +24,20 @@
             }
         </mj-style>
         <mj-style inline="inline">
+            .sora-font div {
+                font-family: 'Sora', sans-serif !important;
+            }
+
             .white-text div {
                 color: #ffffff !important;
             }
 
             .align-to-middle div{
                 text-align: center !important;
+            }
+
+            .align-to-left div{
+                text-align: left !important;
             }
         </mj-style> 
         <mj-breakpoint width="600px" />
@@ -35,15 +49,15 @@
                     background-repeat="no-repeat">
             <mj-column css-class="white-text" padding="30px 0 20px 10px">
                 <mj-image width="65px" src="img/logo.png"/>
-                <mj-text css-class="mobile-heading" font-size="48px" font-weight="bold" line-height="50px" padding="0 25px 20px"> 
+                <mj-text css-class="mobile-heading sora-font" font-size="48px" font-weight="bold" line-height="50px" padding="0 25px 20px"> 
                     Welcome to our Agricultural Newsletter!
                 </mj-text>
-                <mj-text font-size="18px" line-height="30px" padding="0 20px"> 
+                <mj-text font-family="Arial" font-size="18px" line-height="30px" padding="0 20px"> 
                     Stay updated with the latest trends in the agriculture industry.
                     Explore our blog for insightful articles, shop our premium products, 
                     and connect with us on social media
                 </mj-text>
-                <mj-button align="left" font-size="18px" background-color="#008D36" padding="10px 0 0 20px">
+                <mj-button align="left" css-class="sora-font" font-size="18px" background-color="#008D36" padding="10px 0 0 20px">
                     Explore now
                 </mj-button>
             </mj-column>
@@ -56,7 +70,7 @@
                 <mj-text font-size="18px" padding="0 0 10px" color="#008D36">
                     •
                 </mj-text>
-                <mj-text font-size="26px" font-weight="bold" padding="0" color="#008D36">
+                <mj-text css-class="sora-font" font-size="26px" font-weight="bold" padding="0" color="#008D36">
                     Explore the benefits of choosing
                 </mj-text>
             </mj-column>
@@ -65,19 +79,19 @@
         <mj-section background-color="#ffffff" padding="0 0 20px">
             <mj-column css-class="align-to-middle" padding="10px 0">
                 <mj-image width="175px" src="img/benefits-1.jpg"/>
-                <mj-text padding="0 20px">
+                <mj-text font-family="Arial" line-height="16px" padding="0 20px">
                     High-quality products for improved yields
                 </mj-text>
             </mj-column>
             <mj-column css-class="align-to-middle" padding="10px 0">
                 <mj-image width="175px" src="img/benefits-2.jpg"/>
-                <mj-text padding="0 20px">
+                <mj-text font-family="Arial" line-height="16px" padding="0 20px">
                     Expert advice and support for successful farming
                 </mj-text>
             </mj-column>
             <mj-column css-class="align-to-middle" padding="10px 0">
                 <mj-image width="175px" src="img/benefits-3.jpg"/>
-                <mj-text padding="0 20px">
+                <mj-text font-family="Arial" line-height="16px" padding="0 20px">
                     Sustainable solutions for a greener future
                 </mj-text>
             </mj-column>
@@ -87,40 +101,65 @@
         <!-- Collection section : BEGIN -->
         <mj-section background-color="#008D36" padding="30px 0 ">
             <mj-column border-right="1px solid #ffffff">
-                <mj-text font-size="26px" font-weight="bold" line-height="30px" padding="0 20px" color="#ffffff">
+                <mj-text css-class="sora-font" font-size="26px" font-weight="bold" line-height="30px" padding="0 20px" color="#ffffff">
                     • <mj-raw><br /></mj-raw>
                     Browse our extensive collection of agricultural products
                 </mj-text>
             </mj-column>
 
             <mj-column padding="0 20px">
-                <mj-text css-class="white-text" font-size="48px" font-weight="bold"
+                <mj-text css-class="white-text sora-font"  font-size="48px" font-weight="bold"
                 padding="20px 0">
                     342k
                 </mj-text>
-                <mj-text css-class="white-text" font-size="14px" line-height="20px" padding="0 0 20px">
+                <mj-text css-class="white-text" font-family="Arial" font-size="14px" line-height="20px" padding="0 0 20px">
                     High-quality products <mj-raw><br /></mj-raw>
                     for improved yields
                 </mj-text>
-                <mj-text css-class="white-text" font-size="18px">
+                <mj-text css-class="white-text sora-font" font-size="18px">
                     Explore →
                 </mj-text>
             </mj-column>
 
             <mj-column padding="0 20px">
-                <mj-text css-class="white-text" font-size="48px" font-weight="bold"
+                <mj-text css-class="white-text sora-font" font-size="48px" font-weight="bold"
                 padding="20px 0">
                     1265
                 </mj-text>
-                <mj-text css-class="white-text" font-size="14px" line-height="20px" padding="0 0 20px">
+                <mj-text css-class="white-text" font-family="Arial" font-size="14px" line-height="20px" padding="0 0 20px">
                     Sustainable solutions <mj-raw><br /></mj-raw>
                     for a greener future
                 </mj-text>
-                <mj-text css-class="white-text" font-size="18px">
+                <mj-text css-class="white-text sora-font" font-size="18px">
                     Explore →
                 </mj-text>
             </mj-column>
         </mj-section>
+        <!-- Collection section : END -->
+
+        <!-- Collection section : BEGIN -->
+        <mj-section background-color="#ffffff">
+            <mj-column css-class="align-to-middle">
+                <mj-text font-size="18px" padding="0 0 10px" color="#008D36">
+                    •
+                </mj-text>
+                <mj-text css-class="sora-font" font-size="26px" font-weight="bold" padding="0" color="#008D36">
+                    Check out our latest blog post
+                </mj-text>
+            </mj-column>
+
+        
+            
+        </mj-section>
+
+        <mj-section background-color="#ffffff">
+            <mj-column>
+                <mj-button css-class="sora-font" font-size="18px" background-color="#008D36" color="#ffffff">
+                    Read More
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
         <!-- Collection section : END -->
     </mj-body>
 </mjml>
