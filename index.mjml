@@ -50,7 +50,38 @@
         </mj-section>
         <!-- Home section : END -->
 
-        
+        <!-- Home section : BEGIN -->
+        <mj-section background-color="#ffffff">
+            <mj-column css-class="align-to-middle">
+                <mj-text font-size="18px" padding="0 0 10px" color="#008D36">
+                    •
+                </mj-text>
+                <mj-text font-size="26px" font-weight="bold" padding="0" color="#008D36">
+                    Explore the benefits of choosing
+                </mj-text>
+            </mj-column>
+        </mj-section>
 
+        <mj-section background-color="#ffffff" padding="0 0 20px">
+            <mj-column css-class="align-to-middle" padding="10px 0">
+                <mj-image width="175px" src="img/benefits-1.jpg"/>
+                <mj-text padding="0 20px">
+                    High-quality products for improved yields
+                </mj-text>
+            </mj-column>
+            <mj-column css-class="align-to-middle" padding="10px 0">
+                <mj-image width="175px" src="img/benefits-2.jpg"/>
+                <mj-text padding="0 20px">
+                    Expert advice and support for successful farming
+                </mj-text>
+            </mj-column>
+            <mj-column css-class="align-to-middle" padding="10px 0">
+                <mj-image width="175px" src="img/benefits-3.jpg"/>
+                <mj-text padding="0 20px">
+                    Sustainable solutions for a greener future
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- Home section : END -->
     </mj-body>
 </mjml>
