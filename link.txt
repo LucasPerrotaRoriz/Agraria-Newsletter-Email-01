@@ -1,18 +1,1 @@
-https://stripo.email/en/demo/?template=2126363&project=939153&guid=13841928-69c3-4b88-b93d-07d11fdaf181
-
-<mj-section background-color="#ffffff" padding="0">
-            <mj-column css-class="align-to-left mobile-50" padding="0">
-                <mj-image width="270px" src="img/blog-1.jpg" padding="0"/>
-                <mj-text font-size="11px" padding="10px 15px" color="#555555">
-                    By Camil Merrile | Cultivating | 06.04.23
-                </mj-text>
-                <mj-text font-size="20px" font-weight="bold" padding="0 15px 15px" color="#008D36">
-                    Machine work
-                </mj-text>
-                <mj-text font-size="14px" line-height="20px" padding="0 15px" color="#555555">
-                    We are committed to helping farmers achieve success with our 
-                    premium products and reliable support
-                </mj-text>
-            </mj-column>
-        </mj-section>
-
+https://beefree.io/start-designing?template=travel-monthly-newsletter&type=email&catalog=true&e=true
