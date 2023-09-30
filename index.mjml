@@ -348,7 +348,7 @@
 
         <!-- Footer : BEGIN -->
         <mj-section background-color="#ffffff">
-            <mj-column padding="0 20px">
+            <mj-column padding="10px 20px">
                 <mj-text css-class="sora-font" font-size="22px" font-weight="bold" color="#008D36"
                 padding="0 0 20px 0">
                     Get in touch
@@ -363,7 +363,7 @@
                 </mj-text>
             </mj-column>
 
-            <mj-column>
+            <mj-column padding="10px 20px">
                 <mj-text css-class="sora-font" font-size="22px" font-weight="bold" color="#008D36"
                 padding="0 0 20px 0">
                     Farm opening hours
